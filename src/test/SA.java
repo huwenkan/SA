@@ -23,7 +23,7 @@ public class SA {
     public void SA(Double n) {
         //随机选择的初始值
         Double x = 0.0;
-        //每次迭代的函数
+        //每次迭代的函数，这里是计算x^0.5
         Double f = Math.abs(x * x - n);
 
         Random random = new Random();
